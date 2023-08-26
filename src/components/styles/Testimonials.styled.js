@@ -97,5 +97,8 @@ export const StyledTestimonials = styled.div`
             color: #2d2d2d;
             font-size: 12px;
         }
+        .logo-image {
+            width: 120px;
+        }
     }
 `

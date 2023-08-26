@@ -14,7 +14,6 @@ function App() {
         <Header />
         <Body />
       <div className="testimonials-container">
-        <div className="testimonials-scroll">
             {testimonialsData.map(data =>(
               <Testimonials 
                   key = {data.id}
@@ -28,7 +27,6 @@ function App() {
               />
             ))
             }
-          </div>
       </div>
         <Footer />
     </div>
