@@ -5,16 +5,12 @@ body {
   /* margin-left:30px; */
 }
 
-
 .buttons-on-top {
      display: flex; 
     flex-direction: row; 
     justify-content: center;
     align-items: center;
-    
 }
-
-
 
 @media (max-width:768px) {
     .buttons-on-top{
