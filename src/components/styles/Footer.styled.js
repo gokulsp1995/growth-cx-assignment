@@ -55,5 +55,31 @@ export const StyledFooter = styled.footer`
         font-weight: 100;
         font-size: 14px;
     }
-    
+    @media (max-width:768px){
+        h1{
+            font-size: 30px;
+            color: snow;
+            text-align: center;
+        }
+        button{
+            width:150px;
+            font-size: 14px;
+            padding: 10px 20px;
+            margin:auto;
+            border-radius: 8px;
+            font-weight: 700;
+            cursor: pointer;
+            background-color:snow;
+        }
+        .footer-terms{
+            color: snow;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: 30px 20px;
+            text-align:center;
+        }
+
+    }
 `
