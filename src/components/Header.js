@@ -13,7 +13,7 @@ const Header = () => {
         <div>
             <StyledHeader >
                 <div classname="image-and-buttons">
-                <img src="https://growth.cx/wp-content/uploads/2023/02/Growthcx.png"/>
+                    <img src="https://growth.cx/wp-content/uploads/2023/02/Growthcx.png"/>
                     <div className="buttons-on-top"> 
                     {buttons.map((buttonText,index) => (
                         <button key={index}>{buttonText}</button>
@@ -26,4 +26,4 @@ const Header = () => {
         </div>
     )
 }
-export default Header
+export default Header;
