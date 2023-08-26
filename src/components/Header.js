@@ -1,4 +1,5 @@
 import { StyledHeader } from "./styles/Header.styled"
+import React from "react"
 // import { ButtonWrapper } from "./styles/Header.styled"
 
 const Header = () => {
@@ -6,7 +7,6 @@ const Header = () => {
     return (
         <div>
             <StyledHeader >
-                <h1></h1>
                 <div classname="image-and-buttons">
                 <img src="https://growth.cx/wp-content/uploads/2023/02/Growthcx.png"/>
                     <div className="buttons-on-top"> 

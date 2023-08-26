@@ -7,7 +7,7 @@ export const StyledHeader = styled.header`
     flex-direction: row;
     margin: 10px 10px;
     font-family: roboto;  
-    position: fixed;
+    // position: fixed;
     // border: 2px solid green;
     
     img {
