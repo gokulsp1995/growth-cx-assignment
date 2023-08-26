@@ -37,7 +37,7 @@ export const StyledBody = styled.body`
         article{
             font-weight: 300;
             font-size: 20px;
-            margin: 20px 150px 40px;
+            margin: 20px 50px 40px;
             text-align: center;
         }
         h3{

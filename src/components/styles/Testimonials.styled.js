@@ -71,12 +71,14 @@ export const StyledTestimonials = styled.div`
         .testimonial{
             border: 7px solid #2d2d2d;
             border-radius: 40px;
-            width: 400px;
+            width: 360px;
             display: flex;
             justify-content: center;
             // align-items: center; 
             margin: 30px 40px;
             height:400px;
+            margin-right: 10px;
+
         }
         .person-image{
             width: 100px;
@@ -92,10 +94,13 @@ export const StyledTestimonials = styled.div`
         }
         .service-item {
             background-color: #EDEDED;
-            margin: 5px;
+            margin: 4px;
             padding: 5px 7px;
             color: #2d2d2d;
-            font-size: 12px;
+            font-size: 10px;
+            text-align:center;
+            line-height:14px;
+            border-radius: 5px;
         }
         .logo-image {
             width: 120px;
