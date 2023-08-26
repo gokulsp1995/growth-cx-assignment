@@ -3,7 +3,12 @@ import React from "react"
 // import { ButtonWrapper } from "./styles/Header.styled"
 
 const Header = () => {
-    const buttons = ["Why us?", "Our fixes", "Growth","Eye-openers","Customers","Hop on a call"]
+    const buttons = ["Why us?",
+                <button className="custom-button">
+                    <span>Your pains</span>
+                    <p>Our fixes</p> 
+                </button>,
+            "Growth","Eye-openers","Customers","Hop on a call"]
     return (
         <div>
             <StyledHeader >
