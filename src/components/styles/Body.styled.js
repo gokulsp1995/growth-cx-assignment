@@ -2,7 +2,7 @@ import styled from "styled-components"
 
 export const StyledBody = styled.body`
     .body-element{
-        margin-top: 300px;
+        margin-top: 180px;
         display: flex;
         flex-direction: column;
         justify-content: center;

@@ -1,19 +1,21 @@
+import { StyledTestimonials } from "./styles/Testimonials.styled";
 import React from "react";
-import testimonialsData from "./TestimonialsData";
+
 const Testimonials = (props) => {
+  const testimonialClassName = (props.idValue) ? "testimonial odd" : "testimonial even";
     return(
-        <div className="testimonial">
-        <img src={props.logo} alt={props.logo} className="logo-image" />
-        <div className="testimonial-content">
-          <p className="testimonial-name">{props.name}</p>
-          <p className="testimonial-position">
-            {props.position}
-          </p>
-          <p className="testimonial-content">{props.content}</p>
-          <p className="testimonial-services">Services provided:<br/><span>{props.service}</span></p>
+      <StyledTestimonials>
+        <div className={testimonialClassName}>
+          <div className="testimonial-content">
+              <img src={props.logo} alt={props.logo} className="logo-image" />
+              <p className="testimonial-name">{props.name}</p>
+              <p className="testimonial-position">{props.position}</p>
+              <p className="testimonial-content">{props.content}</p>
+              <p className="testimonial-services">Services provided:<br/><span>{props.service}</span></p>
+          </div>
+          <img src={props.image} className="person-image"/>
         </div>
-        <div className="dialogue-pointer"></div>
-    </div>
+    </StyledTestimonials>
     )
 }
 export default Testimonials;

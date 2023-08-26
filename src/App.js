@@ -13,9 +13,22 @@ function App() {
     <div className="App">
         <Header />
         <Body />
-        
+      <div className="testimonials-container">
+        {testimonialsData.map(data =>(
+          <Testimonials 
+              key = {data.id}
+              logo= {data.logo}
+              name= {data.name}
+              position = {data.position}
+              image= {data.image}
+              content= {data.content}
+              service= {data.services}
+              idValue= {data.id % 2 === 1} // Passing an odd prop based on ID
+          />
+        ))
+        }
+      </div>
         <Footer />
-        
     </div>
   )
 }
