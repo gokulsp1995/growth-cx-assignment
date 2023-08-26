@@ -16,7 +16,9 @@ body {
   flex-direction: column;
   /* align-items: flex-start; */
   align-items: center;
+  
 }
+
 /* .image-and-buttons{
     display: flex;
 } */

@@ -26,7 +26,7 @@ export const StyledHeader = styled.header`
         width:10%;
         padding: 5px;
         width: 140px;
-        height: 100px;
+        height: 87px;
         font-size: 20px;
         font-weight:700;
         cursor: pointer;
@@ -37,12 +37,7 @@ export const StyledHeader = styled.header`
         white-space: nowrap; /* Prevent text from wrapping */
         // border: 2px solid red;
         &:nth-child(2) {
-            font-size: 16px;
-            // margin-bottom: 40px;
-            // padding: 10px;
-            // border-radius: 5px;
-            // border-width: 0;
-            // line-height: 110px;
+            font-size: 16px
             white-space: wrap; /* Prevent text from wrapping */
     }
         /* Applying specific styling to the 5th button */

@@ -23,7 +23,7 @@ export const StyledBody = styled.body`
     }
     @media (max-width: 768px) {
         .body-element{
-            margin-top: 200px;
+            margin-top: 150px;
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -36,12 +36,12 @@ export const StyledBody = styled.body`
         }
         article{
             font-weight: 300;
-            font-size: 30px;
+            font-size: 20px;
             margin: 20px 150px 40px;
             text-align: center;
         }
         h3{
-            font-size: 30px;
+            font-size: 25px;
             font-weight: 500;
         }
     }

@@ -19,7 +19,9 @@ const Header = () => {
                             <button key={index}>{buttonText}</button>
                             )) 
                         }
-                    </div> 
+                    </div>
+                    
+                <i class="fa-solid fa-bars"></i> 
                 </div>
             </StyledHeader>
 
