@@ -8,12 +8,11 @@ export const StyledTestimonials = styled.div`
         display: flex;
         justify-content: space-between;
         align-items: flex-start; 
-        margin: 30px 40px;
+        margin: 30px 50px;
     }
     p{
         font-size: 18px;
     }
-    
     .person-image{
         width: 220px;
         margin-top: 20px;
@@ -51,6 +50,7 @@ export const StyledTestimonials = styled.div`
         padding: 5px 7px;
         color: #2d2d2d;
         text-wrap: wrap;
+        border-radius: 5px;
     }
     .service-list{
         display: flex;

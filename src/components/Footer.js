@@ -9,6 +9,7 @@ const Footer = () => {
     const social =["LinkedIn", "Twitter","Facebook","Instagram"]
     return(
         <StyledFooter>
+        <img src="https://growthcx-website-assets.s3.ap-south-1.amazonaws.com/commons/footer-desk.svg"/>
         <div className="footer-component">
                 <h1> Set the foundation for an<br/> aggressive growth</h1>
                 <button>Hop on a call</button>

@@ -16,10 +16,12 @@ export const StyledBody = styled.body`
     article{
         font-weight: 500;
         font-size: 30px;
+        text-align: center;
         margin: 20px auto 40px;
     }
     h3{
         font-size: 35px;
+        text-align: center;
     }
     @media (max-width: 768px) {
         .body-element{

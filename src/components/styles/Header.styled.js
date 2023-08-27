@@ -27,7 +27,7 @@ export const StyledHeader = styled.header`
         padding: 5px;
         width: 140px;
         height: 87px;
-        font-size: 20px;
+        font-size: 18px;
         font-weight:700;
         cursor: pointer;
         background-color: snow;

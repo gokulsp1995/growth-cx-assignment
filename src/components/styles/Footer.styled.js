@@ -1,20 +1,27 @@
 import styled from "styled-components"
 
 export const StyledFooter = styled.footer`
+    display: flex;
+    flex-direction: column;
+    img{
+        width: 100%;
+        margin-top:100px;
+        margin-bottom: 0px;
+    }
     h1{
         font-size: 50px;
         color: snow;
         text-align: center;
     }
     .footer-component {
-        background-color: #2d2d2d;
+        background-color: black;
         width: 100%;
         padding: 30px;
         display: flex;
         flex-direction: column;
         justify-content: center;
         // align-items:center;
-        margin-top: 150px;
+        margin-top: 0px;
     }
     button{
         width:200px;
