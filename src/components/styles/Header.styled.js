@@ -103,13 +103,11 @@ export const StyledHeader = styled.header`
                 justify-content: center;
                 align=items: center;
                 position: absolute;
-                top: 100%;
-                left: 0;
-                width: 100%;
+                // width: 100%;
                 background-color: white;
                 box-shadow: 0px 4px 10px #2d2d2d;
                 margin-top:0;
-                margin-left: 78%;
+                margin-left: 60%;
                 // border-radius:5px;
 
                 button{
