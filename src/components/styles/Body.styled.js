@@ -54,7 +54,7 @@ export const StyledBody = styled.body`
         h3{
             font-size: 25px;
             font-weight: 500;
-            margin-bottom: 150px;
+            margin-bottom: 200px;
         }
     }
 `

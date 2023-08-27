@@ -82,6 +82,7 @@ export const StyledHeader = styled.header`
             display: block;
             width: 50px;
             margin: 5px;
+            margin-right: 30px;
             cursor: pointer;
         }
     }
