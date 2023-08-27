@@ -14,17 +14,17 @@ const Header = () => {
             <StyledHeader >
                 <div className="image-and-buttons">
                     <img src="https://growth.cx/wp-content/uploads/2023/02/Growthcx.png"/>
+                    
                     <div className="buttons-on-top"> 
                         {buttons.map((buttonText,index) => (
                             <button key={index}>{buttonText}</button>
                             )) 
                         }
                     </div>
-                    
-                <i class="fa-solid fa-bars"></i> 
+                    <img className="hamburger-click" src="https://res.cloudinary.com/dj0nbhjiy/image/upload/v1693123178/Screenshot_2023-08-27_132842_nsnwdw.png"/>
+                
                 </div>
             </StyledHeader>
-
         </div>
     )
 }

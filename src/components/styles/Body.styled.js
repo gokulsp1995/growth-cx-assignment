@@ -7,6 +7,11 @@ export const StyledBody = styled.body`
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        
+    }
+    .background-image{
+        background-image: url("https://res.cloudinary.com/dj0nbhjiy/image/upload/v1693122162/Screenshot_2023-08-27_125942_3_hgopbc.jpg");
+        background-size: 100%;
     }
     h1{
         margin-top: 30px;
@@ -17,7 +22,7 @@ export const StyledBody = styled.body`
         font-weight: 500;
         font-size: 30px;
         text-align: center;
-        margin: 20px auto 40px;
+        margin: 50px auto 70px;
     }
     h3{
         font-size: 35px;

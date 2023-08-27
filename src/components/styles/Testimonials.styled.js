@@ -56,12 +56,12 @@ export const StyledTestimonials = styled.div`
         display: flex;
     }
     .odd{
-        background-color: snow;
+        background-color: #FFFFFF;
         margin-right: 250px;
 
     }
     .even{
-        background-color: snow;
+        background-color: #FFFFFF;
         flex-direction: row-reverse;
         margin-left: 30%;
         // float: right;

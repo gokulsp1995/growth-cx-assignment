@@ -5,7 +5,7 @@ export const StyledFooter = styled.footer`
     flex-direction: column;
     img{
         width: 100%;
-        margin-top:100px;
+        margin-top:150px;
         margin-bottom: 0px;
     }
     h1{

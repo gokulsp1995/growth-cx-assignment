@@ -2,7 +2,7 @@ import styled from "styled-components"
 
 export const StyledHeader = styled.header`
 @import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
-    background-color: snow;
+    background-color: #FFFFFF;
     // margin: 10px 10px;
     font-family: roboto;  
     position: fixed;
@@ -22,6 +22,9 @@ export const StyledHeader = styled.header`
         width: 190px;
         margin: 30px 0 25px 30px;
     }
+    .hamburger-click{
+        display: none;
+    }
     button {
         width:10%;
         padding: 5px;
@@ -30,7 +33,7 @@ export const StyledHeader = styled.header`
         font-size: 18px;
         font-weight:700;
         cursor: pointer;
-        background-color: snow;
+        background-color: #FFFFFF;
         border: none;
         margin: 2px;
         justify-content: flex-end;
@@ -71,7 +74,17 @@ export const StyledHeader = styled.header`
         text-decoration: line-through;
         margin:0;
     }
-    
+    @media (max-width:768px) {
+        .buttons-on-top{
+            display: none;
+        }
+        .hamburger-click{
+            display: block;
+            width: 50px;
+            margin: 5px;
+            cursor: pointer;
+        }
+    }
     
 `
 // export const ButtonWrapper = styled.div`

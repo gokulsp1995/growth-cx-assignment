@@ -1,5 +1,5 @@
 body {
-    background-color: snow;
+    background-color: #FFFFFF;
 }
 .App {
   /* margin-left:30px; */
@@ -11,6 +11,7 @@ body {
     /* justify-content: center; */
     align-items: center;
 }
+
 .testimonials-container{
   display: flex;
   flex-direction: column;
@@ -22,8 +23,3 @@ body {
 /* .image-and-buttons{
     display: flex;
 } */
-@media (max-width:768px) {
-    .buttons-on-top{
-        display: none;
-    }
-}
