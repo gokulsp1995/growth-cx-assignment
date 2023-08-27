@@ -14,7 +14,7 @@ const Header = () => {
             <StyledHeader >
                 <div className="image-and-buttons">
                     <img src="https://growth.cx/wp-content/uploads/2023/02/Growthcx.png"/>
-                    
+
                     <div className="buttons-on-top"> 
                         {buttons.map((buttonText,index) => (
                             <button key={index}>{buttonText}</button>

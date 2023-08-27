@@ -36,6 +36,10 @@ export const StyledBody = styled.body`
             justify-content: center;
             align-items: center;
         }
+        .background-image{
+            background-image: url("https://res.cloudinary.com/dj0nbhjiy/image/upload/v1693129220/Bg_mobile_kazkz7.png");
+            background-size: 100%;
+        }
         h1{
             margin: 20px 60px;
             text-align: center;
@@ -50,6 +54,7 @@ export const StyledBody = styled.body`
         h3{
             font-size: 25px;
             font-weight: 500;
+            margin-bottom: 150px;
         }
     }
 `
