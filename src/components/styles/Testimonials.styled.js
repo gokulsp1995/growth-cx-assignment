@@ -5,6 +5,7 @@ export const StyledTestimonials = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    // margin:auto;
     .testimonial{
         border: 7px solid #2d2d2d;
         border-radius: 40px;
@@ -75,17 +76,18 @@ export const StyledTestimonials = styled.div`
         .testimonial{
             border: 7px solid #2d2d2d;
             border-radius: 40px;
-            width: 360px;
+            // width: 360px;
+            width: 90%;
             display: flex;
             justify-content: center;
             // align-items: center; 
             margin: 30px 40px;
             height:400px;
-            margin-right: 10px;
+            margin-right: 20px;
 
         }
         .person-image{
-            width: 100px;
+            width: 90px;
             margin: 10px
             border: 1px solid #2d2d2d;
             align-self: flex-start;
@@ -99,7 +101,7 @@ export const StyledTestimonials = styled.div`
         .service-item {
             background-color: #EDEDED;
             margin: 4px;
-            padding: 5px 7px;
+            padding: 4px 4px;
             color: #2d2d2d;
             font-size: 10px;
             text-align:center;

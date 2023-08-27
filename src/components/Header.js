@@ -1,5 +1,5 @@
 import { StyledHeader } from "./styles/Header.styled"
-import React from "react"
+import React, {useState} from "react"
 // import { ButtonWrapper } from "./styles/Header.styled"
 
 const Header = () => {
@@ -9,6 +9,8 @@ const Header = () => {
                     <p>Our fixes</p> 
                 </button>,
             "Growth","Eye-openers","Customers","Hop on a call"]
+
+            const [showButtons, setShowButtons] = useState(false);
     return (
         <div>
             <StyledHeader >
@@ -21,9 +23,22 @@ const Header = () => {
                             )) 
                         }
                     </div>
-                    <img className="hamburger-click" src="https://res.cloudinary.com/dj0nbhjiy/image/upload/v1693123178/Screenshot_2023-08-27_132842_nsnwdw.png"/>
-                
+                    <img 
+                        className="hamburger-click" 
+                        src="https://res.cloudinary.com/dj0nbhjiy/image/upload/v1693123178/Screenshot_2023-08-27_132842_nsnwdw.png"
+                        onClick={() => setShowButtons(!showButtons)} // Toggle state on click
+                        />
                 </div>
+                    {/* To Display vertical list of Header buttons on clicking the  hamburger button*/}
+                  {showButtons && (
+                    <div className="vertical-buttons">
+                        {buttons.map((buttonText,index) => (
+                            <button key={index}>{buttonText}</button>
+                        ))
+                        }
+                    </div>
+                  )}  
+                    
             </StyledHeader>
         </div>
     )
