@@ -1,6 +1,10 @@
 import styled from "styled-components"
 
 export const StyledTestimonials = styled.div`
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     .testimonial{
         border: 7px solid #2d2d2d;
         border-radius: 40px;
@@ -8,7 +12,7 @@ export const StyledTestimonials = styled.div`
         display: flex;
         justify-content: space-between;
         align-items: flex-start; 
-        margin: 30px 50px;
+        margin: 30px 60px;
     }
     p{
         font-size: 18px;

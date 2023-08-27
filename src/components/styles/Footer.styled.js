@@ -3,6 +3,9 @@ import styled from "styled-components"
 export const StyledFooter = styled.footer`
     display: flex;
     flex-direction: column;
+    width: 100%;
+    // border: 5px solid yellow;
+    // background-color: gray;
     img{
         width: 100%;
         margin-top:150px;
@@ -15,13 +18,13 @@ export const StyledFooter = styled.footer`
     }
     .footer-component {
         background-color: black;
-        width: 100%;
+        // width: 100%;
         padding: 30px;
         display: flex;
         flex-direction: column;
         justify-content: center;
-        // align-items:center;
-        margin-top: 0px;
+        // // align-items:center;
+        margin-top: -5px;
     }
     button{
         width:200px;
@@ -43,10 +46,8 @@ export const StyledFooter = styled.footer`
         display: flex;
         justify-content: space-around;
         margin: 30px 20px;
-        
     }
-    .our-fixes{
-    }
+    
     .footer-titles{
         font-weight:100;
         font-size: 14px;

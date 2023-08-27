@@ -11,12 +11,11 @@ export const StyledHeader = styled.header`
     width: 100%;
     z-index: 100;
     margin:0;
-
     .image-and-buttons{
         display: flex;
         justify-content: space-between;
         align-items: center;
-        width: 100%;
+        width: 90%;
     }
     img {
         width: 190px;
@@ -54,7 +53,6 @@ export const StyledHeader = styled.header`
             white-space: nowrap; /* Prevent text from wrapping */
             margin-right: 10px;
         }
-        
     }
     button:hover{
         &:nth-child(2){
@@ -82,7 +80,6 @@ export const StyledHeader = styled.header`
             display: block;
             width: 50px;
             margin: 5px;
-            margin-right: 30px;
             cursor: pointer;
         }
     }
